@@ -8,7 +8,8 @@ but with all instances of c-acute(ć) replaced by c-cedilla (ç)
 LICENSE
 =======
 
-Copyright (c) 2016 Roberto Selbach <roberto@selbach.ca> All rights reserved.
+Copyright (c) 2016 Roberto Selbach (roberto@selbach.ca)  
+All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
