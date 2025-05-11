@@ -1,33 +1,48 @@
+#
+# c-cedilla
+#
 <dead_acute> <C>			: "Ç"	U0106 # LATIN CAPITAL LETTER C WITH ACUTE
 <dead_acute> <c>			: "ç"	U0107 # LATIN SMALL LETTER C WITH ACUTE
+#
+# Stop unwanted accented consonants
+#
+<dead_acute> <B>			: "'B"	# APOSTROPHE FOLLOWED BY CAPITAL B
+<dead_acute> <b>			: "'b"	# APOSTROPHE FOLLOWED BY SMALL B
+<dead_acute> <D>			: "'D"	# APOSTROPHE FOLLOWED BY CAPITAL D
+<dead_acute> <d>			: "'d"	# APOSTROPHE FOLLOWED BY SMALL D
+<dead_acute> <F>			: "'F"	# APOSTROPHE FOLLOWED BY CAPITAL F
+<dead_acute> <f>			: "'f"	# APOSTROPHE FOLLOWED BY SMALL F
+<dead_acute> <G>			: "'G"	# APOSTROPHE FOLLOWED BY CAPITAL G
+<dead_acute> <g>			: "'g"	# APOSTROPHE FOLLOWED BY SMALL G
+<dead_acute> <H>			: "'H"	# APOSTROPHE FOLLOWED BY CAPITAL H
+<dead_acute> <h>			: "'h"	# APOSTROPHE FOLLOWED BY SMALL H
 <dead_acute> <J>			: "'J"	# APOSTROPHE FOLLOWED BY CAPITAL J
 <dead_acute> <j>			: "'j"	# APOSTROPHE FOLLOWED BY SMALL J
+<dead_acute> <K>			: "'K"	# APOSTROPHE FOLLOWED BY CAPITAL K
+<dead_acute> <k>			: "'k"	# APOSTROPHE FOLLOWED BY SMALL K
 <dead_acute> <L>			: "'L"	# APOSTROPHE FOLLOWED BY CAPITAL L
 <dead_acute> <l>			: "'l"	# APOSTROPHE FOLLOWED BY SMALL L
+<dead_acute> <M>			: "'M"	# APOSTROPHE FOLLOWED BY CAPITAL M
+<dead_acute> <m>			: "'m"	# APOSTROPHE FOLLOWED BY SMALL M
 <dead_acute> <N>			: "'N"	# APOSTROPHE FOLLOWED BY CAPITAL N
 <dead_acute> <n>			: "'n"	# APOSTROPHE FOLLOWED BY SMALL N
+<dead_acute> <P>			: "'P"	# APOSTROPHE FOLLOWED BY CAPITAL P
+<dead_acute> <p>			: "'p"	# APOSTROPHE FOLLOWED BY SMALL P
+<dead_acute> <Q>			: "'Q"	# APOSTROPHE FOLLOWED BY CAPITAL Q
+<dead_acute> <q>			: "'q"	# APOSTROPHE FOLLOWED BY SMALL Q
 <dead_acute> <R>			: "'R"	# APOSTROPHE FOLLOWED BY CAPITAL R
 <dead_acute> <r>			: "'r"	# APOSTROPHE FOLLOWED BY SMALL R
 <dead_acute> <S>			: "'S"	# APOSTROPHE FOLLOWED BY CAPITAL S
-<dead_acute> <q>			: "'q"	# APOSTROPHE FOLLOWED BY SMALL Q
-<dead_acute> <t>			: "'t"	# APOSTROPHE FOLLOWED BY SMALL T
-<dead_acute> <d>			: "'d"	# APOSTROPHE FOLLOWED BY SMALL D
-<dead_acute> <f>			: "'f"	# APOSTROPHE FOLLOWED BY SMALL F
-<dead_acute> <h>			: "'h"	# APOSTROPHE FOLLOWED BY SMALL H
-<dead_acute> <x>			: "'x"	# APOSTROPHE FOLLOWED BY SMALL X
-<dead_acute> <b>			: "'b"	# APOSTROPHE FOLLOWED BY SMALL B
 <dead_acute> <s>			: "'s"	# APOSTROPHE FOLLOWED BY SMALL S
-<dead_acute> <Z>			: "'Z"	# APOSTROPHE FOLLOWED BY CAPITAL Z
-<dead_acute> <z>			: "'z"	# APOSTROPHE FOLLOWED BY SMALL Z
-<dead_acute> <G>			: "'G"	# APOSTROPHE FOLLOWED BY CAPITAL G
-<dead_acute> <g>			: "'g"	# APOSTROPHE FOLLOWED BY SMALL G
-<dead_acute> <K>			: "'K"	# APOSTROPHE FOLLOWED BY CAPITAL K
-<dead_acute> <k>			: "'k"	# APOSTROPHE FOLLOWED BY SMALL K
-<dead_acute> <M>			: "'M"	# APOSTROPHE FOLLOWED BY CAPITAL M
-<dead_acute> <m>			: "'m"	# APOSTROPHE FOLLOWED BY SMALL M
-<dead_acute> <P>			: "'P"	# APOSTROPHE FOLLOWED BY CAPITAL P
-<dead_acute> <p>			: "'p"	# APOSTROPHE FOLLOWED BY SMALL P
-<dead_acute> <W>			: "'W"	# APOSTROPHE FOLLOWED BY CAPITAL W
-<dead_acute> <w>			: "'w"	# APOSTROPHE FOLLOWED BY SMALL W
+<dead_acute> <T>			: "'T"	# APOSTROPHE FOLLOWED BY CAPITAL T
+<dead_acute> <t>			: "'t"	# APOSTROPHE FOLLOWED BY SMALL T
 <dead_acute> <V>			: "'V"	# APOSTROPHE FOLLOWED BY CAPITAL V
 <dead_acute> <v>			: "'v"	# APOSTROPHE FOLLOWED BY SMALL V
+<dead_acute> <W>			: "'W"	# APOSTROPHE FOLLOWED BY CAPITAL W
+<dead_acute> <w>			: "'w"	# APOSTROPHE FOLLOWED BY SMALL W
+<dead_acute> <X>			: "'X"	# APOSTROPHE FOLLOWED BY CAPITAL X
+<dead_acute> <x>			: "'x"	# APOSTROPHE FOLLOWED BY SMALL X
+<dead_acute> <Y>			: "'Y"	# APOSTROPHE FOLLOWED BY CAPITAL Y
+<dead_acute> <y>			: "'y"	# APOSTROPHE FOLLOWED BY SMALL y
+<dead_acute> <Z>			: "'Z"	# APOSTROPHE FOLLOWED BY CAPITAL Z
+<dead_acute> <z>			: "'z"	# APOSTROPHE FOLLOWED BY SMALL Z
