@@ -46,3 +46,10 @@
 <dead_acute> <y>			: "'y"	# APOSTROPHE FOLLOWED BY SMALL y
 <dead_acute> <Z>			: "'Z"	# APOSTROPHE FOLLOWED BY CAPITAL Z
 <dead_acute> <z>			: "'z"	# APOSTROPHE FOLLOWED BY SMALL Z
+#
+# These seem to be needed on terminals under KDE for some bizarre reason
+#
+<dead_diaeresis> <space>		: "\""	quotedbl 	# QUOTATION MARK
+<dead_diaeresis> <dead_diaeresis>	: "\""	quotedbl	# QUOTATION MARK
+<dead_acute> <space>			: "'"	apostrophe	# APOSTROPHE
+<dead_acute> <dead_acute>		: "´"	acute		# ACUTE ACCENT
